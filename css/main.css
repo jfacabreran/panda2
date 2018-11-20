@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Saira');
+*{
+	margin:0px;
+	padding:0px;
+	font-family: 'Saira', sans-serif;
+	color:white;
+	box-sizing: border-box;
+}
+body{
+	background-color: #1D1A05;
+}
+header{
+	height: 70px;
+	background-color: black;
+}
+ul{
+	list-style:none;
+	background-color: #CA3C25;
+	color:white;
+	height: 100%;
+	padding-left:200px;
+}
+li{
+	display: inline-block;
+}
+li a{
+	display: inline-block;	
+	text-align: center;
+	padding: 22px;
+	text-decoration: none;
+}
+li:hover{
+	background-color: #AB2E08;
+}
+.buttons{
+	width: 70%;
+	margin: 0 auto;
+	display: block;
+	padding-bottom:35px;
+}
+button{
+	background-color: #CA3C25;
+	display: inline-block;
+	width: 33%;
+	border:0;
+}
+button:hover{
+	background-color: #AB2E08;	
+}
+.parrafos{
+	width: 75%;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+.parrafos div{
+	padding: 30px;
+	vertical-align: top;
+	width: 49%;
+	display: inline-block;
+	text-align: justify;
+}
+#pictures{
+	padding:20px;
+	width: 70%;
+	margin:0 auto;
+}
+#pictures div{
+	display: inline-block;
+}
+img{
+	filter:grayscale(100%);
+	margin:10px;
+	width:200px;
+	height: 200px;
+	border: 5px solid gray;
+	
+	z-index: 0;
+}
+span{
+	margin: 10px 20px;
+	position: absolute;
+	z-index: 5;
+	font-size: 20px;
+	font-weight: bolder;
+	color:white;
+	cursor: pointer;
+	cursor:hand;
+}
+
+#parrafo1{
+	float:left;
+}
+#parrafo2{
+	float:right;
+}
+
+.parrafos .mostrar{
+	display: inline-block;
+}
+.parrafos .esconder{
+	display: none;
+}
